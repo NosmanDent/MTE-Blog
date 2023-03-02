@@ -14,15 +14,15 @@ const Navbar = () => {
             <div className='sm:flex flex-1 md:gap-x-6 sm:gap-x-4 sm:items-center 
                 sm:justify-center font-serif pt-6 pb-2 sm:px-10 md:px-0'>
                 <p className=' font-bold hover:text-gray-400 sm:text-xs md:text-base'>
-                    <a href="/">Home</a>
+                    <a href="#home">Home</a>
                 </p>
 
                 <p className=' font-bold hover:text-gray-400'>
-                    <a href="/magazine">Magazine</a>
+                    <a href="#magazine">Magazine</a>
                 </p>
 
                 <p className=' font-bold hover:text-gray-400 '>
-                    <a href="/blog">Blog</a>
+                    <a href="#blog">Blog</a>
                 </p>
 
                 <p className=' font-bold hover:text-gray-400'>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </p>
 
                 <p className=' font-bold hover:text-gray-400'>
-                    <a href="/carsales">Model</a>
+                    <a href="#carsales">Model</a>
                 </p>
 
                 <BsSearch />
@@ -78,23 +78,23 @@ const Navbar = () => {
 
                 <div className='flex flex-col gap-y-8 text-white mt-4 '>
                     <p className=' font-bold hover:text-gray-400'>
-                        <a href="/">Home</a>
+                        <a href="#home">Home</a>
                     </p>
 
                     <p className=' font-bold hover:text-gray-400'>
-                        <a href="/magazine">Magazine</a>
+                        <a href="#magazine">Magazine</a>
                     </p>
 
                     <p className=' font-bold hover:text-gray-400 '>
-                        <a href="/blog">Blog</a>
+                        <a href="#blog">Blog</a>
                     </p>
 
                     <p className=' font-bold hover:text-gray-400'>
-                        <a href="/event">Event</a>
+                        <a href="#event">Event</a>
                     </p>
 
                     <p className=' font-bold hover:text-gray-400'>
-                        <a href="/carsales">Model</a>
+                        <a href="#carsales">Model</a>
                     </p>
                 </div>
 

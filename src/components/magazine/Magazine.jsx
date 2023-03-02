@@ -3,7 +3,7 @@ import car3 from '../../assets/car3.jpg'
 
 const Magazine = () => {
   return (
-    <div className='lg:mx-56 md:mx-32 sm:mx-32 mx-20 mt-16 flex flex-1 flex-col items-center justify-center pb-10'>
+    <div className='lg:mx-56 md:mx-32 sm:mx-32 mx-20 mt-16 flex flex-1 flex-col items-center justify-center pb-10' id='magazine'>
         <div >
             <img src={car3} alt="" />
         </div>

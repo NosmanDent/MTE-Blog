@@ -18,7 +18,7 @@ const Blog = () => {
     };
 
     return (
-        <div className="app__gallery flex__center bg-gray-800">
+        <div className="app__gallery flex__center bg-gray-800" id='blog'>
           <div className="app__gallery-content">
             <h1 className="headtext__cormorant text-white font-mono">THE MTE BLOG</h1>
             <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu Lorem ipsum dolor sit amet, c
